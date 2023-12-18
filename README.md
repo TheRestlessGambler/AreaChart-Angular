@@ -1,27 +1,63 @@
-# AreaChartAngular
+# Area Chart Angular App (Angular 16)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
+This Angular 16 application demonstrates an area chart using ApexCharts.
 
-## Development server
+## Table of Contents
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- [Overview](#overview)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Styling](#styling)
+- [Media Query](#media-query)
+- [Angular Version](#angular-version)
+- [License](#license)
 
-## Code scaffolding
+## Overview
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+This Angular 16 application showcases the implementation of an area chart using the ApexCharts library. The chart represents stock data over a period of time, with a gradient fill and a dark background.
 
-## Build
+## Installation
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Clone the repository to your local machine:
 
-## Running unit tests
+   ```bash
+   git clone https://github.com/your-username/your-repo.git
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. Navigate to the project directory:
 
-## Further help
+    ```bash
+    cd AreaChart-Angular
+    
+    
+2. Install the required dependencies:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+   ```bash
+   npm install
+
+
+# Usage
+
+1. To run the application, use the following command:
+   
+    ```bash
+    cd AreaChart-Angular
+Open your browser and navigate to http://localhost:4200/ to view the application
+
+
+# Styling
+The styling for the chart container and its components is defined in the app.component.css file. The color scheme and layout are designed to provide a visually appealing and user-friendly experience.
+
+
+# Media Query
+A media query is included for smaller screens, ensuring responsiveness and adaptability. The chart container takes full width on screens with a maximum width of 768 pixels.
+
+
+# Angular Version
+This project is built with Angular version 16.
+
+
+# License
+This project is licensed under the MIT License.
+
